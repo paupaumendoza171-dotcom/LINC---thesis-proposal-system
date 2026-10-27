@@ -1,0 +1,13 @@
+{
+  "name": "linc-community-wall",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LINC - a moderated student community wall with anonymous and public entries.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

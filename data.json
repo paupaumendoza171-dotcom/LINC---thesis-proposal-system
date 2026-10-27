@@ -1,0 +1,224 @@
+{
+  "version": 1,
+  "users": [
+    {
+      "id": "usr_admin",
+      "role": "admin",
+      "name": "Ms. Elena Cruz",
+      "username": "admin",
+      "passwordHash": "07cb0fda72e8c71b03fb8a31f4bfb2a4:0dc8db11dde03bbbe307dfd61b12279ead0c376e30c6255914b07586ebb6b3e725ec82d505bdf3a15460aeb581ff64d17041a9745e3eb8351694e296f958a637",
+      "createdAt": "2026-06-29T04:04:24.327Z"
+    },
+    {
+      "id": "usr_demo",
+      "role": "student",
+      "name": "Jamie Rivera",
+      "schoolId": "2024-00-000001",
+      "passwordHash": "cfb8c9b5d7076ff89252b56f0c36da19:d99715ac56f2517e0df36b8a28caad9e57b32716d90378127ae61891fb47f6dc2a9c5d0503b8c34accec9067f5dc5927bc2b29b02ee86408c3b34812ec0254bb",
+      "createdAt": "2026-07-29T04:04:24.327Z"
+    },
+    {
+      "id": "usr_maya",
+      "role": "student",
+      "name": "Maya Reyes",
+      "schoolId": "2024-00-000214",
+      "passwordHash": "e9d81921ce2ac94070b95469ab0bae3f:bdf25cc567bfc3879b9d243f4fd01a87a56b6c686791612c3c73d247e94a4131a8cae3505e48512147aaa524173bb42274e2951e19a3a8491be26a778bf1bcba",
+      "createdAt": "2026-07-19T04:04:24.327Z"
+    },
+    {
+      "id": "usr_noah",
+      "role": "student",
+      "name": "Noah Santos",
+      "schoolId": "2024-00-000187",
+      "passwordHash": "9ef75e35405c2fe655e93fb6acb1848a:b77a9498568431fa3f352887857521171a783841e640ec869713887984730cd74fe40d7dccc0a0d3eeb490ac3673867729dcc47f2d25b9bce0834d5f1226202a",
+      "createdAt": "2026-08-08T04:04:24.327Z"
+    },
+    {
+      "id": "usr_ava",
+      "role": "student",
+      "name": "Ava Lim",
+      "schoolId": "2023-00-000905",
+      "passwordHash": "de30ad11c5916db0332e3b9a4e702462:44b5ece3f5b65b5c885add1c97b0a5a81e6a86634a0c862b449842a83d698d1fac5f8970229d8ad4d63f2f771a436035df32462ef3f621acb1e1b047cddf0418",
+      "createdAt": "2026-06-09T04:04:24.327Z"
+    },
+    {
+      "id": "usr_eli",
+      "role": "student",
+      "name": "Eli Cruz",
+      "schoolId": "2024-00-000342",
+      "passwordHash": "75da9a806c8fe36c819795b1d191e695:645ae3afe673e456f226d11d40035cc5fa70bcf51e89dfcf6c979ec431407697007713262561ed0870ef0c2c8efb199a821e997c64ac9bdf06adbc26a6595e18",
+      "createdAt": "2026-08-28T04:04:24.327Z"
+    }
+  ],
+  "entries": [
+    {
+      "id": "ent_seed_01",
+      "userId": "usr_maya",
+      "message": "The peer tutoring sessions on Thursday afternoons have genuinely changed how I study. If you are struggling with calculus, give them a try. The tutors explain things without making you feel behind.",
+      "category": "academics",
+      "visibility": "public",
+      "status": "approved",
+      "createdAt": "2026-10-26T23:04:24.327Z",
+      "reviewedAt": "2026-10-27T00:04:24.327Z",
+      "reviewedBy": "usr_admin",
+      "rejectionReason": ""
+    },
+    {
+      "id": "ent_seed_02",
+      "userId": "usr_ava",
+      "message": "To whoever needs to hear this: a bad week is not a bad life. You are allowed to ask for help, take a break, and try again tomorrow. The counseling office is open until 4 PM on weekdays.",
+      "category": "wellbeing",
+      "visibility": "anonymous",
+      "status": "approved",
+      "createdAt": "2026-10-26T03:04:24.327Z",
+      "reviewedAt": "2026-10-26T05:04:24.327Z",
+      "reviewedBy": "usr_admin",
+      "rejectionReason": ""
+    },
+    {
+      "id": "ent_seed_03",
+      "userId": "usr_noah",
+      "message": "Could we add more water refill stations near the gym and the east parking lot? The one by the cafeteria always has a line after practice, and bringing a bottle is supposed to make things easier, not harder.",
+      "category": "suggestions",
+      "visibility": "public",
+      "status": "approved",
+      "createdAt": "2026-10-27T02:04:24.327Z",
+      "reviewedAt": "2026-10-27T04:47:01.326Z",
+      "reviewedBy": "usr_admin",
+      "rejectionReason": ""
+    },
+    {
+      "id": "ent_seed_04",
+      "userId": "usr_demo",
+      "message": "The second-floor library gets so quiet that even unzipping a bag feels illegal. Could we make one section a quiet-conversation zone? Sometimes we need to study together without whispering the whole time.",
+      "category": "campus-life",
+      "visibility": "anonymous",
+      "status": "approved",
+      "createdAt": "2026-10-27T03:19:24.327Z",
+      "reviewedAt": "2026-10-27T04:46:59.284Z",
+      "reviewedBy": "usr_admin",
+      "rejectionReason": ""
+    },
+    {
+      "id": "ent_seed_05",
+      "userId": "usr_eli",
+      "message": "A group of students keeps taking the same seats in the cafeteria and making comments about people from my old school. I know exactly who they are, but I do not want to put names here.",
+      "category": "other",
+      "visibility": "anonymous",
+      "status": "rejected",
+      "createdAt": "2026-10-25T04:04:24.327Z",
+      "reviewedAt": "2026-10-25T07:04:24.327Z",
+      "reviewedBy": "usr_admin",
+      "rejectionReason": "This is important, but it needs a private conversation rather than a public post. Please speak with someone in student affairs so they can support you directly."
+    },
+    {
+      "id": "ent_seed_06",
+      "userId": "usr_ava",
+      "message": "Club fair is this Friday at the courtyard! The robotics team is looking for new members, and yes, you can join even if you have never built anything before. Come say hi.",
+      "category": "events",
+      "visibility": "anonymous",
+      "status": "approved",
+      "createdAt": "2026-10-25T02:04:24.327Z",
+      "reviewedAt": "2026-10-25T04:04:24.327Z",
+      "reviewedBy": "usr_admin",
+      "rejectionReason": ""
+    },
+    {
+      "id": "ent_seed_07",
+      "userId": "usr_noah",
+      "message": "Does anyone have notes from the WW2 history lecture on Tuesday? I was out sick and would really appreciate a copy. I can trade my biology flashcards.",
+      "category": "academics",
+      "visibility": "public",
+      "status": "approved",
+      "createdAt": "2026-10-24T04:04:24.327Z",
+      "reviewedAt": "2026-10-24T06:04:24.327Z",
+      "reviewedBy": "usr_admin",
+      "rejectionReason": ""
+    },
+    {
+      "id": "ent_seed_08",
+      "userId": "usr_maya",
+      "message": "A quiet room during lunch for students who need a break from the noise would make a huge difference. Not everyone has a group to sit with, and that is okay.",
+      "category": "suggestions",
+      "visibility": "anonymous",
+      "status": "approved",
+      "createdAt": "2026-10-23T04:04:24.327Z",
+      "reviewedAt": "2026-10-23T09:04:24.327Z",
+      "reviewedBy": "usr_admin",
+      "rejectionReason": ""
+    },
+    {
+      "id": "ent_seed_09",
+      "userId": "usr_eli",
+      "message": "Our coding club is hosting a beginner-friendly game jam next month. No experience needed, just bring a laptop and an idea. Would anyone be interested?",
+      "category": "events",
+      "visibility": "public",
+      "status": "rejected",
+      "createdAt": "2026-10-27T03:34:24.327Z",
+      "reviewedAt": "2026-10-27T04:47:10.663Z",
+      "reviewedBy": "usr_admin",
+      "rejectionReason": "sample"
+    },
+    {
+      "id": "ent_seed_10",
+      "userId": "usr_demo",
+      "message": "Shoutout to Ms. Santos for staying after class to explain the lab report. I was completely lost and she drew the whole thing out for me. Small things like that matter.",
+      "category": "academics",
+      "visibility": "public",
+      "status": "approved",
+      "createdAt": "2026-10-26T22:04:24.327Z",
+      "reviewedAt": "2026-10-26T23:04:24.327Z",
+      "reviewedBy": "usr_admin",
+      "rejectionReason": ""
+    },
+    {
+      "id": "ent_seed_11",
+      "userId": "usr_demo",
+      "message": "I have been feeling pretty overwhelmed with college applications lately. Does anyone have a routine that helps them stop spiraling at night?",
+      "category": "wellbeing",
+      "visibility": "anonymous",
+      "status": "rejected",
+      "createdAt": "2026-10-27T03:49:24.327Z",
+      "reviewedAt": "2026-10-27T04:24:31.777Z",
+      "reviewedBy": "usr_admin",
+      "rejectionReason": "sample"
+    },
+    {
+      "id": "ent_seed_12",
+      "userId": "usr_ava",
+      "message": "Reminder: the peer support club meets every Wednesday in room 204. You do not have to talk. You can just sit with us and drink tea.",
+      "category": "wellbeing",
+      "visibility": "public",
+      "status": "approved",
+      "createdAt": "2026-10-26T01:04:24.327Z",
+      "reviewedAt": "2026-10-26T04:04:24.327Z",
+      "reviewedBy": "usr_admin",
+      "rejectionReason": ""
+    },
+    {
+      "id": "ent_seed_13",
+      "userId": "usr_maya",
+      "message": "The new late bus schedule is genuinely so helpful for students who stay for practice. Thank you to everyone who pushed for it.",
+      "category": "campus-life",
+      "visibility": "anonymous",
+      "status": "approved",
+      "createdAt": "2026-10-21T04:04:24.327Z",
+      "reviewedAt": "2026-10-21T08:04:24.327Z",
+      "reviewedBy": "usr_admin",
+      "rejectionReason": ""
+    },
+    {
+      "id": "ent_mFtaMqbJBr_B",
+      "userId": "usr_demo",
+      "message": "hello everyone!",
+      "category": "other",
+      "visibility": "public",
+      "status": "approved",
+      "createdAt": "2026-10-27T04:45:07.239Z",
+      "reviewedAt": "2026-10-27T04:47:04.506Z",
+      "reviewedBy": "usr_admin",
+      "rejectionReason": ""
+    }
+  ],
+  "sessions": []
+}
